@@ -1,0 +1,14 @@
+import CounterApp from "./CounterApp";
+import TodoApp from "./TodoApp";
+import Dashboard from "./Dashboard";
+
+export default function App() {
+  return (
+    <>
+      {/* Activa el que quieras mostrar */}
+      <CounterApp />
+      {/* <TodoApp /> */}
+      {/* <Dashboard /> */}
+    </>
+  );
+}
